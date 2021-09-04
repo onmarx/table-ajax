@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Ajax</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="section">
+      <h4 class="center">Pintar datos con Ajax</h4>
+      <p>Get data with json file and draw information</p>
+      <button class="waves-effect waves-light btn-small draw">Draw info</button>
+      <button class="waves-effect waves-light btn-small delete">Delete info</button>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Species</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="res">
+          <!--info with json file-->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="index.js" type="module"></script>
+</body>
+</html>
